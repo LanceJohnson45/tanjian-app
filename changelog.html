@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>谭健 · 更新日志</title>
+<style>
+  :root { --blue: #056AE2; --deep: #0A428A; --sub: #5b6b82; --bg: #f4f7fb; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg); color: #16233a;
+    display: flex; justify-content: center; padding: 32px 16px;
+  }
+  .wrap { width: 100%; max-width: 430px; }
+  .card {
+    background: #fff; border-radius: 20px; padding: 24px 22px;
+    box-shadow: 0 8px 30px rgba(10, 66, 138, .08); margin-bottom: 14px;
+  }
+  h1 { font-size: 22px; color: var(--deep); margin-bottom: 6px; }
+  a.back { display: inline-block; margin-bottom: 18px; font-size: 13px; color: var(--blue); text-decoration: none; }
+  .ver-head { display: flex; align-items: baseline; gap: 10px; margin-top: 20px; }
+  .ver-head:first-of-type { margin-top: 14px; }
+  .ver { font-size: 17px; font-weight: 800; color: var(--deep); }
+  .date { font-size: 12px; color: var(--sub); }
+  ul { margin: 10px 0 4px 18px; font-size: 14px; line-height: 1.9; color: #2b3c58; }
+  .latest-badge {
+    display: inline-block; font-size: 11px; font-weight: 700; color: #fff;
+    background: var(--blue); border-radius: 6px; padding: 1px 7px; vertical-align: 2px;
+  }
+  hr { border: none; border-top: 1px solid #e8eef7; margin: 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <h1>更新日志</h1>
+    <a class="back" href="index.html">← 返回介绍页</a>
+    <hr>
+    <!-- 每次发版：在 hr 之后、上一版本之前追加一节 -->
+
+    <div class="ver-head">
+      <span class="ver">1.1.0</span><span class="latest-badge">最新</span><span class="date">2026-11-02</span>
+    </div>
+    <ul>
+      <li>新增「检查更新」：个人页一键下载并安装新版本</li>
+      <li>新增本更新日志页与官方发布页 tjver.4bug.eu.org</li>
+      <li>网页版首页新增 App 下载入口</li>
+    </ul>
+    <hr>
+
+    <div class="ver-head">
+      <span class="ver">1.0.0</span><span class="date">2026-10-11</span>
+    </div>
+    <ul>
+      <li>首个公开发布版本</li>
+      <li>训练计划、动作库（视频演示）、训练记录与历史统计</li>
+      <li>邮箱验证码登录，数据云端保存</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

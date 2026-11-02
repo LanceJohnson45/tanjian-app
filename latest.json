@@ -1,0 +1,16 @@
+{
+  "version_name": "1.1.0",
+  "version_code": 2,
+  "apk_urls": [
+    "https://github.com/LanceJohnson45/tanjian-app/releases/download/v1.1.0/tanjian-1.1.0.apk"
+  ],
+  "sha256": "PLACEHOLDER_AFTER_BUILD",
+  "changelog": [
+    "新增「检查更新」：个人页一键下载并安装新版本",
+    "新增更新日志页与官方发布页",
+    "网页版首页新增 App 下载入口"
+  ],
+  "published_at": "2026-11-02",
+  "notes_url": "https://tjver.4bug.eu.org/changelog.html",
+  "config_url": null
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>谭健 · Android 版下载</title>
+<style>
+  :root { --blue: #056AE2; --deep: #0A428A; --sub: #5b6b82; --bg: #f4f7fb; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg); color: #16233a;
+    display: flex; justify-content: center; padding: 32px 16px;
+  }
+  .card {
+    width: 100%; max-width: 430px; background: #fff;
+    border-radius: 20px; padding: 36px 26px 28px;
+    box-shadow: 0 8px 30px rgba(10, 66, 138, .08);
+    text-align: center;
+  }
+  .logo { width: 96px; height: 96px; border-radius: 22px; }
+  h1 { font-size: 26px; margin-top: 18px; color: var(--deep); letter-spacing: .02em; }
+  .tagline { margin-top: 8px; font-size: 14px; color: var(--sub); line-height: 1.7; }
+  .btn {
+    display: block; margin: 26px auto 0; width: 100%; max-width: 300px;
+    padding: 14px 0; border-radius: 14px; text-decoration: none;
+    font-size: 16px; font-weight: 700; color: #fff;
+    background: linear-gradient(135deg, var(--blue), var(--deep));
+    box-shadow: 0 6px 18px rgba(5, 106, 226, .30);
+  }
+  .btn:active { opacity: .85; }
+  .btn.ghost {
+    background: #fff; color: var(--blue);
+    border: 1.5px solid #c7d9f2; box-shadow: none; margin-top: 12px;
+  }
+  .meta { margin-top: 22px; font-size: 12px; color: var(--sub); line-height: 1.8; }
+  .meta a { color: var(--blue); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="card">
+  <img class="logo" src="assets/logo.png" alt="谭健 logo">
+  <h1>谭健</h1>
+  <p class="tagline">跟着教练视频练的训练 App<br>训练计划 · 动作库 · 视频演示 · 历史统计</p>
+  <a class="btn" href="https://github.com/LanceJohnson45/tanjian-app/releases/latest/download/tanjian-latest.apk">下载 Android 版（最新）</a>
+  <a class="btn ghost" href="changelog.html">查看更新日志</a>
+  <p class="meta">
+    安装时若提示「未知来源」，允许即可。<br>
+    下载需访问 GitHub，国内网络偶有慢速，属正常现象。<br>
+    <a href="https://abc.4bug.eu.org/" target="_blank" rel="noopener">网页版（无需安装）</a>
+  </p>
+</div>
+</body>
+</html>
