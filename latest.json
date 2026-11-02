@@ -4,7 +4,7 @@
   "apk_urls": [
     "https://github.com/LanceJohnson45/tanjian-app/releases/download/v1.1.0/tanjian-1.1.0.apk"
   ],
-  "sha256": "PLACEHOLDER_AFTER_BUILD",
+  "sha256": "cd2a0325f2ad5d90e0ad00daced17c0dfbece304840bc416c354a8d086772c5d",
   "changelog": [
     "新增「检查更新」：个人页一键下载并安装新版本",
     "新增更新日志页与官方发布页",
