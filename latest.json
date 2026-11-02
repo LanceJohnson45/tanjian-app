@@ -1,14 +1,14 @@
 {
-  "version_name": "1.1.1",
-  "version_code": 3,
+  "version_name": "1.2.0",
+  "version_code": 4,
   "apk_urls": [
-    "https://github.com/LanceJohnson45/tanjian-app/releases/download/v1.1.1/tanjian-1.1.1.apk"
+    "https://github.com/LanceJohnson45/tanjian-app/releases/download/v1.2.0+4/tanjian-1.2.0.apk"
   ],
-  "sha256": "df0534efacc41f8513dd3e0f7d17461b336ad76bc9f081c7e2031e639b44f021",
+  "sha256": "bb1e132347c96d2251a47bfe8683bdc96acc2d7e735c3cbe1f80675d5b8079a8",
   "changelog": [
-    "修复：1.1.0 打包漏带服务器地址导致接口不可用",
-    "检查更新新增备用版本源，提升可用性",
-    "发版流程新增服务器地址门禁校验"
+    "训练计划支持计时动作（如平板支撑）：记录方式可选按次数/按时长，按时长以秒记组、不伪造次数",
+    "记组重量三态选择：无重量 / 自重 / 手动填写，切换自动预填",
+    "修复：补录训练开始时间选择弹层无法打开的问题"
   ],
   "published_at": "2026-11-02",
   "notes_url": "https://tjver.4bug.eu.org/changelog.html",
