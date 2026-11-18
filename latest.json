@@ -1,16 +1,17 @@
 {
-  "version_name": "1.2.0",
-  "version_code": 4,
+  "version_name": "1.3.0",
+  "version_code": 5,
   "apk_urls": [
-    "https://github.com/LanceJohnson45/tanjian-app/releases/download/v1.2.0+4/tanjian-1.2.0.apk"
+    "https://github.com/LanceJohnson45/tanjian-app/releases/download/v1.3.0+5/tanjian-1.3.0.apk"
   ],
-  "sha256": "bb1e132347c96d2251a47bfe8683bdc96acc2d7e735c3cbe1f80675d5b8079a8",
+  "sha256": "0b901248b78fbb898ead3814767b6fabe9c71da75909c52426b625b6517d4017",
   "changelog": [
-    "训练计划支持计时动作（如平板支撑）：记录方式可选按次数/按时长，按时长以秒记组、不伪造次数",
-    "记组重量三态选择：无重量 / 自重 / 手动填写，切换自动预填",
-    "修复：补录训练开始时间选择弹层无法打开的问题"
+    "Android 通知栏显示组间倒计时，休息结束时播放提示音和显示顶部横幅。也可以在通知栏记录本组。",
+    "下次练同一个正式动作，自动带出最近一次完成训练中该动作最后一组的重量和次数，开练前可直接调整。",
+    "热身和拉伸无需填重量。训练计划会按正式动作的主要肌群补充匹配的拉伸。",
+    "点「完成训练」立即停止计时，保存失败时可重试。"
   ],
-  "published_at": "2026-11-02",
+  "published_at": "2026-11-18",
   "notes_url": "https://tjver.4bug.eu.org/changelog.html",
   "config_url": null
 }
